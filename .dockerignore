@@ -1,0 +1,32 @@
+# Dipendenze e build locali
+node_modules
+.next
+out
+coverage
+
+# Git e IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Docker
+Dockerfile
+compose.yaml
+.dockerignore
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Log e OS
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# Documentazione
+README.md
+plans
+DEVELOPMENT_PLAN.md
