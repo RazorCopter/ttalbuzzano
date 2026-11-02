@@ -14,13 +14,13 @@ services:
     container_name: table-tennis-web
     restart: unless-stopped
     ports:
-      - "${HOST_PORT:-3000}:3000"
+      - "${HOST_PORT:-3005}:3005"
     env_file:
       - path: .env
         required: false
     environment:
       NODE_ENV: production
-      PORT: "3000"
+      PORT: "3005"
       HOSTNAME: 0.0.0.0
       NEXT_TELEMETRY_DISABLED: "1"
     healthcheck:
